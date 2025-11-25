@@ -16,3 +16,4 @@ permalink: /blog/
 ## Posts
 
 - [How I Replaced a Legacy Internal Tool Without Stopping Development](/blog/legacy-tool-migration/)
+- [Why a Small Standalone Prototype Saves Time](/blog/small-prototype-before-integration/)
