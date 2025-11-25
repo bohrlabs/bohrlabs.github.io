@@ -1,6 +1,2 @@
 Gemfile.lock
-_site/index.html
-_site/assets/css/style.css
-_site/blog/index.html
-_site/blog/legacy-tool-migration/index.html
-_site/blog/small-prototype-before-integration/index.html
+_site/*
