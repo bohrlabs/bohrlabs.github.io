@@ -1,11 +1,6 @@
 title: BohrLabs
-description: Experiments, notes and tools around simulation, visualization and embedded systems.
-theme: minima
+description: Notes, experiments and engineering insights.
+remote_theme: pages-themes/cayman@v0.2.0
 
-# Optional: simple navigation
-minima:
-  nav:
-    - title: "Home"
-      url: /
-    - title: "Blog"
-      url: /blog/
+plugins:
+  - jekyll-remote-theme

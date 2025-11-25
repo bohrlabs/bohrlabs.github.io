@@ -1,13 +1,17 @@
 ---
-layout: page
+layout: default
 title: Blog
 permalink: /blog/
 ---
 
-# Blog
+<h1>Blog</h1>
 
-A collection of general engineering insights, experiences and development notes.  
-Everything is intentionally written in abstract form, without specific technologies, companies or proprietary details.
+<p>
+  General engineering notes and experiences – written in an abstract way, without company
+  or product details. Focus: internal tools, simulation, visualization and incremental migration.
+</p>
+
+---
 
 ## Posts
 

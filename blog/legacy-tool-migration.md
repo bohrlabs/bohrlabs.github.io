@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: default
 title: "How I Replaced a Legacy Internal Tool Without Stopping Development"
 permalink: /blog/legacy-tool-migration/
 ---
+
 
 In one of my earlier projects, our team relied on a long-standing internal simulation and visualization environment.  
 The core simulation was surprisingly fast—sometimes even faster than real time during resimulation.  
