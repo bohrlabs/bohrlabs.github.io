@@ -17,3 +17,4 @@ permalink: /blog/
 
 - [How I Replaced a Legacy Internal Tool Without Stopping Development](/blog/legacy-tool-migration/)
 - [Why a Small Standalone Prototype Saves Time](/blog/small-prototype-before-integration/)
+- [Standalone Applications Directly on the Embedded Target (Bare-Metal or RTOS)](/blog/standalone-application-directly-on-the-embedded-target/)
