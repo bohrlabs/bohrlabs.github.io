@@ -36,7 +36,7 @@ Crewmitglied Marla reagiert ungewöhnlich stark auf die Katze.
 Die Katze adoptiert Kai.
 </p>
 
-- [Kapitel 2 – Die Spur der Vibrationen] 
+- [Kapitel 2 – Die Spur der Vibrationen](/Fan-Fiction/Kapitel-2.md)
 <p>
 Die Mistral Voyager hat unerklärliche Mikrofehler: Sensorflackern, falsch interpretierte Daten, Servos, die nachkalibrieren müssen.
 Andere Tiere an Bord (oder sensitive Crew) reagieren panisch auf die Katze.
