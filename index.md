@@ -50,6 +50,16 @@ Everything is intentionally general and technology-agnostic.
   </p>
 </div>
 
+<div style="flex: 1 1 260px; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; background: #ffffffaa;">
+  <h3 style="margin-top: 0;">Fan Fiction</h3>
+  <p style="margin-bottom: 0.5rem;">
+    Own fiction with help of AI, just for fun.
+  </p>
+  <p style="margin-bottom: 0; color: #777;">
+    <a href="/Fan-Fiction/">Go to Book→</a>
+  </p>
+</div>
+
 </div>
 
 ---
