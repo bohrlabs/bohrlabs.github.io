@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Fan-Fiction
 permalink: /Fan-Fiction/
 ---
 <p align="center" style="margin-top: 1rem; margin-bottom: 1.5rem;">
