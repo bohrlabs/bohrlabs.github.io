@@ -2,6 +2,7 @@
 layout: default
 title: "Kapitel 3 – Eine Spur, die nicht ignoriert werden konnte"
 permalink: /Fan-Fiction/Kapitel-3/
+---
 # Kapitel 3 – Eine Spur, die nicht ignoriert werden konnte
 
 Die Schritte aus dem Wartungsschacht wurden lauter. Dann tauchte die schwarz-weiße Katze wieder auf – dieses Mal mit einem kleinen, verbogenen Metallclip im Maul.
