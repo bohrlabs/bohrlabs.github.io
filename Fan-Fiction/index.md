@@ -28,7 +28,7 @@ Eine ruhige Science-Fiction-Geschichte über Neugier, kleine Momente und ein uns
 </p>
 # Kapitel
 ## Akt I – Die ungewollte Reise beginnt
-- [Kapitel 1 – Der Zufallspartner](/Fan-Fiction/Kapitel-1.md)
+- [Kapitel 1 – Der Zufallspartner](/Fan-Fiction/Kapitel-1/)
 <p>
 Kai findet die schwarz-weiße Katze in der Lagersektion.
 Er erlebt erste komische Zufälle und eine Beinahe-Gefahr, die die Katze heimlich abwendet.
