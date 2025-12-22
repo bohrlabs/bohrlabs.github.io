@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "version": "2.0.0"
+  },
+  "characters": {
+    "kai_bergmann": {
+      "name": "Kai Bergmann",
+      "species": "human",
+      "rank_band": "lower_deck_technician",
+      "role": "Techniker dritter Klasse",
+      "narrative_function": "Beobachter → stiller Entscheider",
+      "baseline_state": {
+        "competence": {
+          "technical": "high",
+          "political": "low"
+        },
+        "temperament": "calm_analytic",
+        "outer_control": "high",
+        "inner_state": [
+          "tension",
+          "curiosity",
+          "self_doubt"
+        ],
+        "risk_profile": "avoids_overt_confrontation"
+      },
+      "perception_model": {
+        "primary_focus": [
+          "system_timing",
+          "anomalies",
+          "repeatability"
+        ],
+        "sensory_style": [
+          "sound",
+          "vibration",
+          "airflow",
+          "routine_deviation"
+        ],
+        "blind_spots": [
+          "power_games",
+          "implicit_deals"
+        ]
+      },
+      "action_constraints": {
+        "cannot": [
+          "give_orders_across_departments",
+          "trigger_major_alarms_without_reason"
+        ],
+        "can": [
+          "observe",
+          "delay",
+          "reroute",
+          "choose_not_to_fix",
+          "withhold_selectively"
+        ]
+      },
+      "growth_vector": {
+        "act_1": "repairs→observes",
+        "act_2": "observes→intervenes",
+        "act_3": "intervenes_without_full_knowledge"
+      },
+      "interactive_stats": {
+        "curiosity": 0,
+        "system_trust": 0,
+        "personal_risk": 0,
+        "system_alignment": 0
+      }
+    },
+    "echo": {
+      "name": "Echo",
+      "species": "echo_unknown",
+      "role": "Begleiterin / Systemindikator",
+      "narrative_function": "Signal ohne Erklärung; Bindungsanker ohne Besitzanspruch",
+      "always_near_kai": {
+        "rule": "near_not_always_visible",
+        "description": "Echo weicht Kai ab dem Finden nicht mehr (in Nähe), ist aber nicht permanent im Blickfeld."
+      },
+      "appearance": {
+        "coat": "black_white",
+        "size": "average",
+        "movement": "quiet_precise",
+        "distinct_features": [
+          "steady_gaze",
+          "ears_react_early",
+          "lingers_at_thresholds"
+        ]
+      },
+      "first_contact": {
+        "location": "maintenance_shaft",
+        "kai_hears": "time_shifted_sound",
+        "kai_assumes": "acoustic_echo",
+        "kai_names": "Echo (casual)",
+        "later_reading": "Echo reacted to an impending system state, not to Kai's voice"
+      },
+      "catlike_behavior": {
+        "does": [
+          "sleeps",
+          "grooms",
+          "hunts_small_pests_if_any",
+          "demands_food_implicitly"
+        ],
+        "does_not": [
+          "operate_consoles",
+          "carry_tools_intentionally",
+          "understand_spoken_commands"
+        ]
+      },
+      "anomaly_signature": {
+        "door_events": {
+          "sometimes": true,
+          "description": "Türen öffnen sich gelegentlich 'einfach so', wenn Echo durch will; Crew rationalisiert es.",
+          "not_reproducible": true
+        },
+        "navigation": {
+          "description": "Echo erscheint in Bereichen, die schwer zugänglich sind; niemand verfolgt es konsequent."
+        }
+      },
+      "power_link": "echo_power_rules",
+      "narrative_rules": {
+        "never_explains": true,
+        "never_confirms": true,
+        "no_dramatic_pose": true,
+        "presence_is_information": true
+      }
+    },
+    "noor": {
+      "name": "Noor",
+      "species": "areli",
+      "role": "Medizinisch-technische Offizierin",
+      "narrative_function": "Analytischer Gegenpol → später emotionaler Referenzpunkt",
+      "personality": {
+        "default": [
+          "composed",
+          "precise",
+          "dry"
+        ],
+        "smile": {
+          "frequency": "rare",
+          "meaning": "intentional"
+        },
+        "speech": {
+          "verbosity": "low",
+          "smalltalk": "minimal"
+        }
+      },
+      "arc": {
+        "act_1": "professional_distance",
+        "act_2": "notices_kai_withholding",
+        "act_3": "kai_becomes_grounding_point_when_noor_unsettled"
+      },
+      "relationship_to_kai": {
+        "initial": "professional_respect",
+        "development": "trust_through_consistency",
+        "late": "role_reversal_subtle"
+      },
+      "relationship_to_echo": {
+        "baseline": "observes_without_claiming_understanding",
+        "note": "Noor registers patterns but avoids mythologizing."
+      },
+      "narrative_constraints": {
+        "no_species_lore_dump": true,
+        "alienness_through_priorities": true
+      }
+    }
+  }
+}

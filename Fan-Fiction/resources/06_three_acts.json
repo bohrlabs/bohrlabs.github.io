@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "version": "2.0.0"
+  },
+  "three_act_structure": {
+    "principles": {
+      "choices_change_path_not_destination": true,
+      "mystery_is_shown_not_explained": true,
+      "kai_growth_is_core": true
+    },
+    "act_1": {
+      "title": "Die Irritation",
+      "purpose": "Status quo etablieren und minimal brechen",
+      "beats": [
+        {
+          "id": "A1_B1",
+          "name": "Status quo",
+          "summary": "Routine, Wartung, Hierarchie."
+        },
+        {
+          "id": "A1_B2",
+          "name": "Begegnung",
+          "summary": "Kai trifft Echo im Wartungsschacht; Name entsteht beiläufig."
+        },
+        {
+          "id": "A1_B3",
+          "name": "Erste Verschiebungen",
+          "summary": "Timing/Logs/Türen wirken 'zu passend'."
+        },
+        {
+          "id": "A1_B4",
+          "name": "Wachsamkeit",
+          "summary": "Kai beginnt zu beobachten statt nur zu reparieren."
+        }
+      ],
+      "turning_point": {
+        "id": "A1_TP",
+        "summary": "Kleiner Regelbruch: Kai meldet nicht alles / verschweigt Details."
+      }
+    },
+    "act_2": {
+      "title": "Die Verschiebung",
+      "purpose": "Muster werden sichtbar; Kai wird Teilnehmer",
+      "beats": [
+        {
+          "id": "A2_B1",
+          "name": "Muster",
+          "summary": "Wiederholung: Systeme reagieren vor Eingaben."
+        },
+        {
+          "id": "A2_B2",
+          "name": "Crew-Verdrängung",
+          "summary": "Andere rationalisieren; niemand will eskalieren."
+        },
+        {
+          "id": "A2_B3",
+          "name": "Alte Schichten",
+          "summary": "Hinweise auf überlagerte Steuerungsebenen."
+        },
+        {
+          "id": "A2_B4",
+          "name": "Nebenwirkungen",
+          "summary": "Kleine Eingriffe verschieben Probleme anderswo."
+        }
+      ],
+      "turning_point": {
+        "id": "A2_TP",
+        "summary": "Externer Druck (Inspektion/Standardisierung) droht das 'Innere' zu zerstören."
+      }
+    },
+    "act_3": {
+      "title": "Die Entscheidung",
+      "purpose": "Handeln ohne vollständiges Wissen; persönlicher Abschluss",
+      "beats": [
+        {
+          "id": "A3_B1",
+          "name": "Bereinigung",
+          "summary": "Alles wirkt 'zu ordentlich'; Anomalien scheinen zu verschwinden."
+        },
+        {
+          "id": "A3_B2",
+          "name": "Plan ohne Plan",
+          "summary": "Kette kleiner Maßnahmen statt großer Aktion."
+        },
+        {
+          "id": "A3_B3",
+          "name": "Kosten",
+          "summary": "Kai trägt Konsequenzen: Verletzung/Vertrauen/Zugang."
+        },
+        {
+          "id": "A3_B4",
+          "name": "Neue Stabilität",
+          "summary": "Außen normal, innen verändert; Echo bleibt."
+        }
+      ],
+      "resolution": {
+        "explanation_level": "partial",
+        "end_state": "Kai bleibt Techniker; Merkwürdigkeiten seltener, nicht weg."
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "version": "2.0.0"
+  },
+  "crew_hierarchy": {
+    "ship": "Mistral Voyager",
+    "principle": "Kai is low rank; most people ignore anomalies unless they cause measurable harm.",
+    "ranks": [
+      {
+        "rank": 1,
+        "title": "Captain",
+        "name": "Captain Elian Marr",
+        "species": "human",
+        "domain": "overall_command",
+        "character_core": {
+          "demeanor": "quiet_distant",
+          "priority": "operations_continuity",
+          "blind_spot": "subtle_anomalies_without_incidents"
+        }
+      },
+      {
+        "rank": 2,
+        "title": "First Officer",
+        "name": "Sera Valen",
+        "species": "areli",
+        "domain": "crew_order_and_efficiency",
+        "character_core": {
+          "demeanor": "controlled_structured",
+          "priority": "efficiency_and_stability",
+          "note": "Treats anomalies as noise unless policy relevant."
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Chief Engineer",
+        "name": "Tomas Rheel",
+        "species": "human",
+        "domain": "engineering_command",
+        "character_core": {
+          "demeanor": "pragmatic_tired",
+          "priority": "keep_it_running",
+          "relationship_to_kai": "knows_him_by_roster_more_than_personally"
+        }
+      },
+      {
+        "rank": 4,
+        "title": "Medical-Technical Officer",
+        "name": "Noor",
+        "species": "areli",
+        "domain": "medical_and_tech_isolation_suite",
+        "character_core": {
+          "demeanor": "analytic_composed",
+          "special": "Kai becomes grounding point later"
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Security Chief",
+        "name": "Kharuun-Tal",
+        "species": "kharuun",
+        "domain": "ship_security",
+        "character_core": {
+          "demeanor": "watchful_reserved",
+          "instinct": "uneasy_around_echo",
+          "rule": "does_not_discuss_the_unease"
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Operations Coordinator",
+        "name": "Juno Krell",
+        "species": "human",
+        "domain": "daily_ops_and_logs",
+        "character_core": {
+          "demeanor": "routinized",
+          "belief": "a_problem_exists_when_reported"
+        }
+      },
+      {
+        "rank": 7,
+        "title": "Technicians (Engineering Crew)",
+        "name": "Engineering Team",
+        "species": "mixed",
+        "domain": "maintenance_and_repairs",
+        "character_core": {
+          "demeanor": "pragmatic",
+          "spoken_rule": "dont_ask_if_it_works"
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Technician Third Class",
+        "name": "Kai Bergmann",
+        "species": "human",
+        "domain": "lower_deck_maintenance",
+        "character_core": {
+          "demeanor": "quiet_attentive",
+          "strength": "consistency",
+          "blind_spot": "own_significance"
+        }
+      }
+    ],
+    "crew_notes": {
+      "echo_visibility": "Most accept Echo as 'ship cat' and rationalize access anomalies.",
+      "reporting_culture": "Avoid creating paperwork; minimize escalation."
+    }
+  }
+}

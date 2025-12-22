@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "version": "2.0.0"
+  },
+  "echo_power_rules": {
+    "core_principle": "uncontrolled_probability_shift",
+    "high_level": [
+      "Echo verändert nicht sichtbar die Realität.",
+      "Sie verschiebt Wahrscheinlichkeiten minimal und unpräzise.",
+      "Es ist kein Werkzeug, keine Ressource, kein kalkulierbarer Schutz."
+    ],
+    "activation_trigger": {
+      "type": "instinctive_loss_anticipation",
+      "description": "Reflexartige Reaktion auf die Wahrnehmung eines bevorstehenden irreversiblen Verlusts von Kai.",
+      "is_conscious": false,
+      "is_predictable": false,
+      "is_repeatable": false
+    },
+    "required_conditions": {
+      "kai_would_die_or_be_critically_and_irreversibly_harmed": true,
+      "loss_is_imminent": true,
+      "echo_physically_present": true,
+      "kai_not_relying_on_echo": true
+    },
+    "allowed_effects": [
+      {
+        "type": "timing_offset",
+        "examples": [
+          "Ventil schließt 0.4s früher",
+          "Türzyklus verzögert sich minimal"
+        ]
+      },
+      {
+        "type": "micro_direction_change",
+        "examples": [
+          "Sturz wird zu Rutschen",
+          "Splitterflugwinkel ändert sich"
+        ]
+      },
+      {
+        "type": "coincidental_interference",
+        "examples": [
+          "Werkzeug fällt 'zufällig' genau so",
+          "Arretierung löst sich"
+        ]
+      },
+      {
+        "type": "unlikely_but_plausible_outcome",
+        "examples": [
+          "Schutzplatte verrutscht",
+          "Kurzschluss führt zu Abschaltung statt Explosion"
+        ]
+      }
+    ],
+    "explicitly_disallowed": [
+      "time_reversal",
+      "teleportation",
+      "visible_energy",
+      "selective_targeting",
+      "intentional_activation",
+      "saving_multiple_people_as_primary_goal"
+    ],
+    "outcome_constraints": {
+      "kai_survives": true,
+      "damage_or_cost_required": true,
+      "no_clear_causality": true,
+      "no_post_event_change_in_echo": true
+    },
+    "frequency_guideline": {
+      "max_uses_per_story": 2,
+      "never_on_command": true,
+      "never_same_pattern_twice": true
+    },
+    "consequences": {
+      "echo": "none",
+      "kai": {
+        "physical": [
+          "injury_possible",
+          "scars_possible",
+          "recovery_time"
+        ],
+        "psychological": [
+          "doubt",
+          "heightened_attention",
+          "quiet_fear_of_patterns"
+        ]
+      },
+      "crew": [
+        "chalks_it_up_to_luck",
+        "does_not_investigate_deeply"
+      ]
+    },
+    "narrative_rules": {
+      "kai_never_knows_for_sure": true,
+      "crew_never_labels_echo_as_cause": true,
+      "echo_remains_catlike": true,
+      "if_scene_needs_power_to_work_scene_is_wrong": true
+    }
+  }
+}

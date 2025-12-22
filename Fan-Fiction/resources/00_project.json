@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "version": "2.0.0",
+    "timezone": "Europe/Berlin",
+    "updated": "2025-12-18",
+    "notes": [
+      "Quiet sci-fi tone; mysteries are shown via observation and subtle system behavior.",
+      "Interactive adaptation: choices change path/cost, not the ultimate thematic destination."
+    ]
+  },
+  "project": {
+    "type": "fanfiction_book",
+    "working_title": "Kai Bergmann & Echo",
+    "format_targets": [
+      "novel",
+      "interactive_fiction"
+    ],
+    "setting": {
+      "primary_location": "Frachter: Mistral Voyager",
+      "secondary_location": "Andock-/Stationsbereiche (optional, später)",
+      "genre": "ruhige Science-Fiction",
+      "scale": "lokal/systemisch (keine Weltenrettung)",
+      "tone": {
+        "pace": "slow_burn",
+        "action_level": "low_to_moderate",
+        "mystery_delivery": "hint_over_exposition",
+        "horror_level": "none",
+        "humor": "dry_rare"
+      },
+      "vibe_keywords": [
+        "Neugier",
+        "kleine Momente",
+        "subtile Anomalien",
+        "Beobachtung",
+        "geplante Normalität"
+      ]
+    },
+    "core_premise": {
+      "logline": "Ein Techniker dritter Klasse findet eine ungewöhnlich präsente Katze im Wartungsschacht. Mit ihr geraten kleine Systemverschiebungen in Kais Blickfeld, bis aus Routine stille Verantwortung wird.",
+      "themes": [
+        "Wahrnehmung",
+        "Verantwortung ohne Gewissheit",
+        "Normalität als Design",
+        "Systeme mit eigener Logik",
+        "Bindung als Instinkt"
+      ],
+      "central_question": "Was bedeutet es, richtig zu handeln, wenn man das Ganze nicht versteht?",
+      "non_negotiables": {
+        "kai_not_chosen_one": true,
+        "echo_is_catlike": true,
+        "no_full_lore_dump": true,
+        "resolution_is_partial_but_satisfying": true
+      }
+    }
+  }
+}

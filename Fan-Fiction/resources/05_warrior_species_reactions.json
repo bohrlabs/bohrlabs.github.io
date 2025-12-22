@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "version": "2.0.0"
+  },
+  "warrior_species_reactions_to_echo": {
+    "kharuun": {
+      "reaction": "instinctive_unease",
+      "felt_like": "facing_unbeatable_opponent",
+      "behaviors": [
+        "keeps_distance",
+        "avoids_eye_contact",
+        "unusually_polite_silence"
+      ],
+      "interpretation": "does_not_label_it; treats_as_anomaly"
+    },
+    "vaelth": {
+      "reaction": "spatial_disorientation",
+      "felt_like": "room_geometry_is_wrong",
+      "behaviors": [
+        "changes_path",
+        "stops_and_listens",
+        "leaves_tight_spaces"
+      ],
+      "interpretation": "trusts_instinct; retreats_without_explaining"
+    },
+    "silexian_guard": {
+      "reaction": "model_incoherence",
+      "felt_like": "protocols_conflict",
+      "behaviors": [
+        "micro_hesitation",
+        "delayed_access_decision",
+        "re-checks"
+      ],
+      "interpretation": "functional_not_emotional"
+    }
+  }
+}

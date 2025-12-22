@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "version": "2.0.0"
+  },
+  "species": {
+    "human": {
+      "name": "Human",
+      "classification": "humanoid",
+      "notes": [
+        "Dominant in Teilen der Crewstruktur.",
+        "Reagiert meist pragmatisch: 'Solange es läuft, ist es kein Problem.'"
+      ]
+    },
+    "areli": {
+      "name": "Areli",
+      "classification": "humanoid alien",
+      "external_similarity_to_humans": "very_high",
+      "key_differences": [
+        "verzögerte emotionale Integration",
+        "enge Kopplung von Analyse und Affekt",
+        "bewusste statt reflexhafte Emotionsäußerung"
+      ],
+      "cultural_traits": {
+        "values": [
+          "Stabilität",
+          "Zuverlässigkeit",
+          "modellbasierte Entscheidungen"
+        ],
+        "emotional_expression": "sparsam, bewusst, bedeutungsvoll",
+        "stress_handling": "Analyse vor Reaktion"
+      },
+      "story_rules": {
+        "no_species_exposition_dump": true,
+        "alienness_shown_through_behavior": true
+      }
+    },
+    "kharuun": {
+      "name": "Kharuun",
+      "classification": "humanoid warrior species",
+      "physical_traits": {
+        "build": "kräftig, hohe Muskel- und Knochendichte",
+        "skin": "lederartig",
+        "movement": "kontrolliert, effizient"
+      },
+      "cultural_core": {
+        "values": [
+          "Ehre",
+          "Überleben",
+          "klare Bedrohungen"
+        ],
+        "role_preferences": [
+          "Sicherheit",
+          "Boarding-Abwehr",
+          "Gefahrenerkennung"
+        ]
+      },
+      "threat_perception": {
+        "mode": "instinktiv/vorbewusst",
+        "signature": "Unbehagen bei Regelverletzungen"
+      }
+    },
+    "vaelth": {
+      "name": "Vaelth",
+      "classification": "humanoid hunter species",
+      "physical_traits": {
+        "build": "schlank, schnell",
+        "movement": "leise, abruptes Stoppen möglich"
+      },
+      "cultural_core": {
+        "values": [
+          "Jagdinstinkt",
+          "Situationsbewertung",
+          "Rückzug bei Inkonsistenz"
+        ],
+        "role_preferences": [
+          "Aufklärung",
+          "taktische Sicherheit"
+        ]
+      },
+      "threat_perception": {
+        "mode": "raumbezogen/probabilistisch",
+        "signature": "Orientierungsstörung bei unplausiblen Kausalitäten"
+      }
+    },
+    "silexian_guard": {
+      "name": "Silexianer (Wächterkasten)",
+      "classification": "humanoid-mineralic",
+      "physical_traits": {
+        "build": "massiv, langsam",
+        "skin": "kristallin, hochstabil"
+      },
+      "cultural_core": {
+        "values": [
+          "Stabilität",
+          "Schutz",
+          "Protokolltreue"
+        ],
+        "role_preferences": [
+          "Zugangskontrolle",
+          "stationäre Sicherheit"
+        ]
+      },
+      "threat_perception": {
+        "mode": "resonanzbasiert (Modell-Kohärenz)",
+        "signature": "funktionale Verzögerung, wenn Modelle widersprechen"
+      }
+    },
+    "echo_unknown": {
+      "name": "Echo (formale Klassifikation)",
+      "classification": "formal: Felis catus / functional: unknown",
+      "notes": [
+        "Wirkt wie eine normale Katze, ist aber minimal 'zu passend' in Timing und Wegwahl.",
+        "Keine technische Bedienung; keine absichtliche Systemkontrolle."
+      ]
+    }
+  }
+}
