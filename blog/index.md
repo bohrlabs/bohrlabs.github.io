@@ -11,11 +11,13 @@ permalink: /blog/
   or product details. Focus: internal tools, simulation, visualization and incremental migration.
 </p>
 
----
-
 ## Posts
 
-- [How I Replaced a Legacy Internal Tool Without Stopping Development](/blog/legacy-tool-migration/)
-- [Why a Small Standalone Prototype Saves Time](/blog/small-prototype-before-integration/)
-- [Standalone Applications Directly on the Embedded Target (Bare-Metal or RTOS)](/blog/standalone-application-directly-on-the-embedded-target/)
-- [Why Tooling Teams Often Fail to Deliver Good Tooling](/blog/tooling-teams-problem/)
+<ul>
+{% for post in site.posts %}
+  <li>
+    {{ post.date | date: "%Y-%m-%d" }} —
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
