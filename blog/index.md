@@ -14,10 +14,18 @@ permalink: /blog/
 ## Posts
 
 <ul>
-{% for post in site.posts %}
-  <li>
-    {{ post.date | date: "%Y-%m-%d" }} —
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
+{% assign blog_pages = site.pages
+  | where_exp: "p", "p.dir == '/blog/'"
+  | sort: "name"
+  | reverse %}
+
+{% for p in blog_pages %}
+  {% if p.name != "index.md" %}
+    {% assign date_str = p.name | slice: 0, 10 %}
+    <li>
+      {{ date_str }} —
+      <a href="{{ p.url }}">{{ p.title }}</a>
+    </li>
+  {% endif %}
 {% endfor %}
 </ul>
