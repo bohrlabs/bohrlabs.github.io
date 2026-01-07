@@ -15,17 +15,16 @@ permalink: /blog/
 
 <ul>
 {% assign blog_pages = site.pages
-  | where_exp: "p", "p.dir == '/blog/'"
-  | sort: "name"
+  | where_exp: "p", "p.path contains 'blog/'"
+  | where_exp: "p", "p.path != 'blog/index.md'"
+  | sort: "path"
   | reverse %}
 
 {% for p in blog_pages %}
-  {% if p.name != "index.md" %}
-    {% assign date_str = p.name | slice: 0, 10 %}
-    <li>
-      {{ date_str }} —
-      <a href="{{ p.url }}">{{ p.title }}</a>
-    </li>
-  {% endif %}
+  {% assign date_str = p.path | split: "/" | last | slice: 0, 10 %}
+  <li>
+    {{ date_str }} —
+    <a href="{{ p.url }}">{{ p.title | default: p.name }}</a>
+  </li>
 {% endfor %}
 </ul>
