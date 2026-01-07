@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Why a Small Standalone Prototype Saves Time"
+title: "Standalone Applications Directly on the Embedded Target"
 permalink: /blog/standalone-application-directly-on-the-embedded-target/
 ---
 ## Standalone Applications Directly on the Embedded Target (Bare-Metal or RTOS)
